@@ -6,5 +6,5 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Jeffrey Jackson" => "jj@autolean.com" }
   s.source       = { :git => "https://github.com/AutoLean/ALAppCatalog.git", :tag => "1.1" }
-  s.source_files = 'Classes', 'Classes/**/*.{h,m}'
+  s.source_files = 'Classes', 'ALAppCatalog/Classes/*.{h,m}'
 end
