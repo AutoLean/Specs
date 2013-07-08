@@ -7,4 +7,5 @@ Pod::Spec.new do |s|
   s.author       = { "Jeffrey Jackson" => "jj@autolean.com" }
   s.source       = { :git => "https://github.com/AutoLean/ALAppCatalog.git", :tag => "1.1" }
   s.source_files = 'Classes', 'ALAppCatalog/Classes/*.{h,m}'
+  s.requires_arc = true
 end
