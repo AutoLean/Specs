@@ -6,6 +6,6 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Jeffrey Jackson" => "jj@autolean.com" }
   s.source       = { :git => "https://github.com/AutoLean/ALFonts.git", :tag => "1.0" }
-  s.source_files = 'ALFonts/*.*'
+  s.source_files = 'ALFonts/RBNo3.1/*.*'
   s.requires_arc = true
 end
