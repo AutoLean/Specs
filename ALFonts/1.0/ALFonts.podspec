@@ -5,6 +5,6 @@ Pod::Spec.new do |s|
   s.homepage     = "http://www.autolean.com"
   s.author       = { "Jeffrey Jackson" => "jj@autolean.com" }
   s.source       = { :git => "https://github.com/AutoLean/ALFonts.git", :tag => "1.0" }
-  s.source_files = "**/*.{h,m}"
-  s.resource_bundle = { 'RBNo3.1' => 'ALFonts/RBNo3.1/*.otf' }
+  s.source_files = "*.{h,m}"
+  s.resources = "RBNo3.1/*.otf"
 end
