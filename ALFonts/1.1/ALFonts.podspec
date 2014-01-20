@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.author       = { "Jeffrey Jackson" => "jj@autolean.com" }
   s.source       = { :git => "https://github.com/AutoLean/ALFonts.git", :tag => "1.1" }
   s.source_files = "*.{h,m}"
-  s.resources = "RBNo3.1/*.otf"
-s.post_install do |library_representation|
+  s.resources = "Resources/**/*.otf"
+  s.post_install do |library_representation|
     require 'rexml/document'
 
     library = library_representation.library
