@@ -49,4 +49,5 @@ Pod::Spec.new do |s|
 
       doc.write(File.open(plist, 'wb'))
     end
+  end
 end
