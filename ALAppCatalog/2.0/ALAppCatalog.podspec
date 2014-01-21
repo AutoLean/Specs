@@ -9,5 +9,4 @@ Pod::Spec.new do |s|
   s.source_files = 'ALAppCatalog/Classes/*.{h,m}'
   s.resources    = 'ALAppCatalog.bundle'
   s.requires_arc = true
-  s.dependency 'Parse'
 end
