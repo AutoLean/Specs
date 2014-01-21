@@ -9,6 +9,8 @@ Pod::Spec.new do |s|
   s.source_files = 'ALAppCatalog/Classes/*.{h,m}'
   s.resources    = 'ALAppCatalog/Classes/*.{h.m}'
   s.requires_arc = true
-  s.platform = :ios
+  s.frameworks   = 'Parse'
+  s.platform     = :ios
   s.dependency 'Parse', '>= 1.0'
+
 end
