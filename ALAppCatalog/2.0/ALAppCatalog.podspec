@@ -10,4 +10,6 @@ Pod::Spec.new do |s|
   s.resources    = 'ALAppCatalog/Classes/*.{h.m}'
   s.frameworks   = 'Parse'
   s.requires_arc = true
+
+  s.dependency 'Parse', >= '1.0'
 end
