@@ -8,5 +8,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/AutoLean/ALAppCatalog.git", :tag => "2.0" }
   s.source_files = 'ALAppCatalog/Classes/*.{h,m}'
   s.resources    = 'ALAppCatalog.bundle'
+  s.framework    = 'Parse'
   s.requires_arc = true
 end
