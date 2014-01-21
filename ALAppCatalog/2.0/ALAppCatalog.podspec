@@ -11,6 +11,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.frameworks   = 'Parse'
   s.platform     = :ios
-  s.dependency 'Parse', '>= 1.0'
-
+  s.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => '"$(PODS_ROOT)/Parse"' }
 end
