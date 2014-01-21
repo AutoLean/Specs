@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.frameworks   = 'Parse'
   s.requires_arc = true
 
-  s.dependency 'Parse', >= '1.0'
+  s.dependency 'Parse', '>= 1.0'
 end
