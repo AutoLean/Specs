@@ -7,5 +7,5 @@ Pod::Spec.new do |s|
   s.author       = { "Jeffrey Jackson" => "jj@autolean.com" }
   s.source       = { :git => "https://github.com/AutoLean/ShinobiCharts.git", :tag => "2.5.7" }
   s.vendored_frameworks = 'ShinobiCharts.framework'
-
+  s.frameworks = 'QuartzCore', 'OpenGLES', 'CoreText', 'libc++.dylib'
 end
