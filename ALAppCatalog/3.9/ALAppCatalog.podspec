@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source_files = 'ALAppCatalog/Classes/*.{h,m}'
   s.resources    = ["ALAppCatalog/*.otf","ALAppCatalog/*.png"]
   s.requires_arc = true
-  s.frameworks   = 'Parse'
+#  s.frameworks   = 'Parse'
   s.platform     = :ios
-  s.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => '"$(PODS_ROOT)/Parse"' }
+#  s.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => '"$(PODS_ROOT)/Parse"' }
 end
