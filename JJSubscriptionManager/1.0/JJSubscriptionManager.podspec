@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
   s.source_files = 'SubscriptionManager/SubscriptionManager/*.{h,m}'
   s.requires_arc = true
   s.platform     = :ios
-  s.dependency   = 'RMStore', '~> 0.0'
-  s.dependency   = 'OpenSSL', '~> 0.0'
-  s.dependency   = 'Lockbox', '~> 0.0'
-  s.dependency   = 'RMStore/AppReceiptVerificator', '~> 0.0'
-  s.dependency   = 'RMStore/TransactionReceiptVerificator', '~> 0.0'
-  s.dependency   = 'RMStore/KeychainPersistence', '~> 0.0'
-  s.dependency   = 'RMStore/NSUserDefaultsPersistence', '~> 0.0'
-  s.dependency   = 'Reachability', '~> 0.0'
+  s.dependency 'RMStore'
+  s.dependency 'OpenSSL'
+  s.dependency 'Lockbox'
+  s.dependency 'RMStore/AppReceiptVerificator'
+  s.dependency 'RMStore/TransactionReceiptVerificator'
+  s.dependency 'RMStore/KeychainPersistence'
+  s.dependency 'RMStore/NSUserDefaultsPersistence'
+  s.dependency 'Reachability'
 end
