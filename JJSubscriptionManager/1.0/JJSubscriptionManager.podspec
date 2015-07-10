@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://www.autolean.com"
   s.license      = 'MIT'
   s.author       = { "Jeffrey Jackson" => "jj@autolean.com" }
-  s.source       = { :git => "https://github.com/AutoLean/JJSubscriptionManager.git", :tag => "1.0" }
+  s.source       = { :git => "https://github.com/jeffreyjackson/JJSubscriptionManager.git", :tag => "1.0" }
   s.source_files = 'SubscriptionManager/SubscriptionManager/*.{h,m}'
   s.requires_arc = true
   s.platform     = :ios
