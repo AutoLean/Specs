@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.platform     = :ios
   s.dependency 'RMStore'
-  s.dependency 'OpenSSL'
+  s.dependency 'OpenSSL-Universal', :git => 'https://github.com/krzyzanowskim/OpenSSL.git', :branch => :master
   s.dependency 'Lockbox'
   s.dependency 'RMStore/AppReceiptVerificator'
   s.dependency 'RMStore/TransactionReceiptVerificator'
