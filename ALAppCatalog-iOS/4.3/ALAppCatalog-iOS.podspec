@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.dependency 'Parse'
   s.dependency 'ParseUI'
+  s.dependency 'uservoice-iphone-sdk'
 end
