@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.license      = 'Private'
   s.homepage     = "http://www.autolean.com"
   s.author       = { "Jeffrey Jackson" => "jj@autolean.com" }
-  s.source       = { :git => "git@github.com:AutoLean/ShinobiAdvancedCharts-iOS.git", :tag => "1.0.1" }
+  s.source       = { :git => "git@github.com:AutoLean/ShinobiAdvancedChartingKit-iOS.git", :tag => "1.0.1" }
   s.vendored_frameworks = 'ShinobiCharts.framework'
   s.frameworks = 'QuartzCore', 'OpenGLES', 'CoreText'
   s.library = 'c++'
